@@ -24,17 +24,20 @@ export default function Hero() {
   ];
   return (
     <section>
-      <div className="text-center mb-5 pb-5">
-        <h3 className="pt-3">Charges</h3>
-        <p className="pt-3 fs-5 text-muted">List of all charges and taxes</p>
+      <div className="row m-5 p-5 text-center">
+        <h3 className="">Charges</h3>
+        <p className="pt-2 fs-5 text-muted">List of all charges and taxes</p>
+
       </div>
-      <div className="container">
-        <div className="row g-5">
+
+
+      <div className="container mt-5 pt-4">
+        <div className="row m-5 g-5">
           {images.map((image) => (
             <div className="col-md-4" key={image.id}>
-              <img src={image.img} alt={image.alt} className="img-fluid mx-auto d-block" style={{ height: "40%", objectFit: "cover" }}/>
+              <img src={image.img} alt={image.alt} className="img-fluid mx-auto pb-3 d-block" style={{ height: "45%", objectFit: "cover" }}/>
               <h3>{image.header}</h3>
-              <p className="text-muted">{image.text}</p>
+              <p className="text-muted pt-3" style={{lineHeight: "1.8", fontSize: "18px"}}>{image.text}</p>
             </div>
           ))}
         </div>
