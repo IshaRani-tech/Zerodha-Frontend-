@@ -1,12 +1,10 @@
-import React from "react";
-
 export default function Hero() {
   return (
     <section>
       <div className="container p-5 mb-5">
         <div className="row text-center">
           <img
-            src="images-20260112T144402Z-1-001\images\landing.svg"
+            src="images/landing.svg"
             alt="Hero Image"
             className="mb-5"
           />

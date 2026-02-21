@@ -2,7 +2,7 @@ import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
-// import OpenAc from "../OpenAc";
+import OpenAc from "./components/OpenAc";
 import NavBar from "./components/NavBar";
 import HomePage from "./LandingPage/Home/HomePage";
 import SignUp from "./LandingPage/SignUp/SignUp";
@@ -30,7 +30,7 @@ function App() {
           <Route path="/support" element={<SupportPage />} />
           <Route path="/*" element={<NotFound/>}/>
         </Routes>
-        {/* <OpenAc /> */}
+        <OpenAc />
         <Footer />
       </BrowserRouter>
     </>

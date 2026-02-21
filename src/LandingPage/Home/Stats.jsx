@@ -1,5 +1,3 @@
-import React from "react";
-
 export default function Stats() {
   return (
     <section>
@@ -45,7 +43,7 @@ export default function Stats() {
             <img
               className="mb-5"
               style={{ width: "110%" }}
-              src="images-20260112T144402Z-1-001\images\ecosystem.png"
+              src="images/ecosystem.png"
             ></img>
             <a href="https://zerodha.com/products">
               Explore our products <i className="fa fa-arrow-right"></i>
@@ -58,7 +56,7 @@ export default function Stats() {
           <img
             style={{ width: "65%" }}
             className="d-block mx-auto mb-5"
-            src="images-20260112T144402Z-1-001\images\press-logos.png"
+            src="images/press-logos.png"
           ></img>
         </div>
       </div>

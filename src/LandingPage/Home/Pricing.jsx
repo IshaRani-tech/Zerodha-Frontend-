@@ -14,12 +14,12 @@ export default function Pricing() {
           </div>
           {/* <div className="col-1"></div> */}
           <div className="col-8">
-            <div className="row ">
+            <div className="row">
               <div
                 className="col text-muted text-start "
                 style={{ fontSize: "15px" }}
               >
-                <div className="boxone">
+                <div className="box-one">
                   <p className="paraone">
                     Free account
                     <br></br>
@@ -32,8 +32,8 @@ export default function Pricing() {
                 className="col text-muted text-start "
                 style={{ fontSize: "15px" }}
               >
-                <div className="boxtwo">
-                  <p className="paratwo">
+                <div className="box-two">
+                  <p className="para-two">
                     Free equity delivery
                     <br></br>
                     and direct mutual funds
@@ -45,8 +45,8 @@ export default function Pricing() {
                 className="col text-muted text-start"
                 style={{ fontSize: "15px" }}
               >
-                <div className="boxthree">
-                  <p className="parathree">
+                <div className="box-three">
+                  <p className="para-three">
                     Intraday and
                     <br></br>
                     F&O

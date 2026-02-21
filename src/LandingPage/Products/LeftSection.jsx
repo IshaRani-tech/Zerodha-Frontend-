@@ -37,12 +37,12 @@ export default function LeftSection({
             <div className="d-flex gap-3">
               {googlePlay && (
                 <a href={googlePlay}>
-                  <img src="images-20260112T144402Z-1-001\images\googlePlayBadge.svg" />
+                  <img src="images/googlePlayBadge.svg" />
                 </a>
               )}
               {appStore && (
                 <a href={appStore}>
-                  <img src="images-20260112T144402Z-1-001\images\appstoreBadge.svg" />
+                  <img src="images/appstoreBadge.svg" />
                 </a>
               )}
             </div>

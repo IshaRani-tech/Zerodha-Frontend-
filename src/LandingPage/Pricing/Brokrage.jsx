@@ -1,25 +1,16 @@
+import { useState } from "react";
 import "./Brokrage.css";
 
 export default function Brokrage() {
-  return (
-    <section>
-      <div className="container m-4">
-        <nav className="row g-0 fs-4 p-2 border-bottom" style={{ width: "40%",  borderWidth: "5000px" }}>
-          <a className="col hover-color" href="" id="Equity">
-            Equity
-          </a>
-          <a className="col hover-color" href="" id="Currency">
-            Currency
-          </a>
-          <a className="col hover-color" href="" id="Commodity">
-            Commodity
-          </a>
-        </nav>
+  const [currTab, setCurrTab] = useState("equity");
 
+  const renderTab = () => {
+    return (
+      <section>
         <div className="section">
-          <table class="table table-responsive text-start">
-            <thead>
-              <tr style={{font: "#424242"}}>
+          <table className="table table-striped table-responsive align-middle text-start" id="Equity">
+            <thead className="">
+              <tr style={{ font: "#424242" }}>
                 <th scope="col"></th>
                 <th scope="col">Equity delivery</th>
                 <th scope="col">Equity intraday</th>
@@ -52,10 +43,23 @@ export default function Brokrage() {
               </tr>
               <tr>
                 <th scope="row">Transaction charges</th>
-                <td>NSE: 0.00297% <br/>BSE: 0.00375%</td>
-                <td>NSE: 0.00297% <br/>BSE: 0.00375%</td>
-                <td>NSE: 0.00173% <br/>BSE: 0</td>
-                <td>NSE: 0.03503% (on premium)<br/>BSE: 0.0325% (on premium)</td>
+                <td>
+                  NSE: 0.00297% <br />
+                  BSE: 0.00375%
+                </td>
+                <td>
+                  NSE: 0.00297% <br />
+                  BSE: 0.00375%
+                </td>
+                <td>
+                  NSE: 0.00173% <br />
+                  BSE: 0
+                </td>
+                <td>
+                  NSE: 0.03503% (on premium)
+                  <br />
+                  BSE: 0.0325% (on premium)
+                </td>
               </tr>
               <tr>
                 <th scope="row">GST</th>
@@ -83,7 +87,44 @@ export default function Brokrage() {
         </div>
         <p>Calculate your costs upfront using our brokerage calculator</p>
 
-      </div>
-    </section>
-  );
+        {/* <div className="container m-4">
+        <nav className="row g-5 text-start d-block fs-3 p-2 border-bottom">
+          <span>
+            <a className="col hover-color" href="" id="Equity">
+              {" "}
+              Equity
+            </a>
+          </span>
+
+          <span>
+            <a className="col hover-color" href="" id="Currency">
+              Currency
+            </a>
+          </span>
+          <span>
+            <a className="col hover-color" href="" id="Commodity">
+              Commodity
+            </a>
+          </span>
+        </nav>
+      </div>   */}
+      </section>
+    );
+  };
+
+  return (
+    <div className="container m-4">
+      <nav className="row g-5 text-start d-block fs-3 p-2 33eborder-bottom">
+        <span >
+          <a className="hover-color" href="#" onClick={ () => setCurrTab("equity") } > {currTab === "equity" ?  "" : ""} Equity</a>
+        </span>
+        <span >
+          <a className="hover-color" href="" id="Currency">Currency</a>
+        </span>
+        <span >
+          <a className="hover-color" href="" id="Commodity">Commodity</a>
+        </span>
+      </nav>
+    </div>
+  )
 }

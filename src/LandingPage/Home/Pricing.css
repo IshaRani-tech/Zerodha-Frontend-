@@ -1,8 +1,8 @@
-.boxone{
+.box-one{
     height: 110px;
     /* width: 100px; */
     transform: scale(0.6);
-    background-image: url("C:\Users\isha\Downloads\Zerodha Front-end\front-end\public\images-20260112T144402Z-1-001\images\pricingEquity.svg");
+    background-image: url("images/pricingEquity.svg");
     background-size: cover;
     background-position: right;
     position: relative;
@@ -12,17 +12,17 @@
     /* padding-top: 5px; */
 }
 
-.paraone {
+.para-one {
     position: relative;
     /* z-index: 3; */
     top: 47px;
     left: 202px;
 }
 
-.boxtwo {
+.box-two {
     height: 110px;
     transform: scale(0.6);
-    background-image: url("C:\Users\isha\Downloads\Zerodha Front-end\front-end\public\images-20260112T144402Z-1-001\images\pricingEquity.svg");
+    background-image: url("images/pricingEquity.svg");
     background-size: cover;
     background-position: right;
     position: relative;
@@ -30,7 +30,7 @@
 
 }
 
-.paratwo {
+.para-two {
     position: relative;
     top: 47px;
     left: 204px;
@@ -38,16 +38,16 @@
 
 }
 
-.boxthree {
+.box-three {
     height: 115px;
     transform: scale(0.6);
-    background-image: url("C:\Users\isha\Downloads\Zerodha Front-end\front-end\public\images-20260112T144402Z-1-001\images\other-trades.svg");
+    background-image: url("images/other-trades.svg");
     background-size: cover;
     background-position: right;
     position: relative;
 }
 
-.parathree {
+.para-three {
     position: relative;
     top: 30px;
     left: 240px;

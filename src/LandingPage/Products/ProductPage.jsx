@@ -9,7 +9,7 @@ export default function ProductPage() {
     <>
       <Hero />
       <LeftSection
-        imageURL="images-20260112T144402Z-1-001\images\products-kite.png"
+        imageURL="images/products-kite.png"
         productName="Kite"
         productDescription="Our ultra-fast flagship trading platform with streaming market data, advanced charts, an elegant UI, and more. Enjoy the Kite experience seamlessly on your Android and iOS devices."
         primaryLink={{lable:"Try Demo", url:"#"}}
@@ -18,14 +18,14 @@ export default function ProductPage() {
         appStore="https://apps.apple.com/in/app/zerodha-kite-trade-invest/id1449453802"
       />
       <RightSection
-        imageURL="images-20260112T144402Z-1-001\images\products-console.png"
+        imageURL="images/products-console.png"
         productName="Console"
         productDescription="The central dashboard for your Zerodha account. Gain insights into your trades and investments with in-depth reports and visualisations."
         primaryLink={{lable:"Learn More", url:"#"}}
       />
 
       <LeftSection
-        imageURL="images-20260112T144402Z-1-001\images\products-coin.png"
+        imageURL="images/products-coin.png"
         productName="Coin"
         productDescription="Buy direct mutual funds online, commission-free, delivered directly to your Demat account. Enjoy the investment experience on your Android and iOS devices."
         primaryLink={{lable:"Coin", url:"#"}}
@@ -35,14 +35,14 @@ export default function ProductPage() {
       />
 
       <RightSection
-        imageURL="images-20260112T144402Z-1-001\images\landing rightSection.svg"
+        imageURL="images/landing rightSection.svg"
         productName="Kite Connect API"
         productDescription="Build powerful trading platforms and experiences with our super simple HTTP/JSON APIs. If you are a startup, build your investment app and showcase it to our clientbase."
         primaryLink={{lable:"Kite Connect", url:"#"}}
       />
 
       <LeftSection
-        imageURL="images-20260112T144402Z-1-001\images\varsity-products.svg"
+        imageURL="images/varsity-products.svg"
         productName="Varsity mobile"
         productDescription="An easy to grasp, collection of stock market lessons with in-depth coverage and illustrations. Content is broken down into bite-size cards to help you learn on the go."
         googlePlay="https://play.google.com/store/apps/details?id=com.zerodha.kite3"

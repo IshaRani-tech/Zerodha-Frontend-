@@ -1,11 +1,9 @@
-import React from "react";
-
 export default function Education() {
   return (
     <section>
       <div className="row mb-5 p-5 ">
         <div className="col-5">
-          <img src="images-20260112T144402Z-1-001\images\index-education.svg"></img>
+          <img src="images/index-education.svg"></img>
         </div>
         <div className="col-1"></div>
         <div className="col-6 mt-5 text-start">
